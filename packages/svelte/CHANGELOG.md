@@ -1,5 +1,13 @@
 # svelte
 
+## 5.50.2
+
+### Patch Changes
+
+- fix: don't swallow `DOMException` when `media.play()` fails in `bind:paused` ([#17656](https://github.com/sveltejs/svelte/pull/17656))
+
+- fix: reduce if block nesting ([#17662](https://github.com/sveltejs/svelte/pull/17662))
+
 ## 5.50.1
 
 ### Patch Changes
